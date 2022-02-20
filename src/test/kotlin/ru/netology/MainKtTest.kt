@@ -13,7 +13,7 @@ class MainKtTest {
 
         val sumAmount : Int = 55000
         val sumOldAmount : Int = 7490000
-        val cardType : String = "MasterCard"
+        val cardType : String = MASTERCARD
 
         val result = calculateCommission(sumAmount, cardType, sumOldAmount)
 
@@ -28,7 +28,7 @@ class MainKtTest {
 
         val sumAmount : Int = 55000
         val sumOldAmount : Int = 0
-        val cardType : String = "MasterCard"
+        val cardType : String = MASTERCARD
 
         val result = calculateCommission(sumAmount, cardType, sumOldAmount)
 
@@ -43,7 +43,7 @@ class MainKtTest {
 
         val sumAmount : Int = 7600000
         val sumOldAmount : Int = 0
-        val cardType : String = "MasterCard"
+        val cardType : String = MASTERCARD
 
         val result = calculateCommission(sumAmount, cardType, sumOldAmount)
 
@@ -59,7 +59,7 @@ class MainKtTest {
 
         val sumAmount : Int = 30000
         val sumOldAmount : Int = 35000
-        val cardType : String = "MasterCard"
+        val cardType : String = MASTERCARD
 
         val result = calculateCommission(sumAmount, cardType, sumOldAmount)
 
@@ -74,7 +74,7 @@ class MainKtTest {
 
         val sumAmount : Int = 55000
         val sumOldAmount : Int = 7490000
-        val cardType : String = "Maestro"
+        val cardType : String = MAESTRO
 
         val result = calculateCommission(sumAmount, cardType, sumOldAmount)
 
@@ -89,7 +89,7 @@ class MainKtTest {
 
         val sumAmount : Int = 55000
         val sumOldAmount : Int = 0
-        val cardType : String = "Maestro"
+        val cardType : String = MAESTRO
 
         val result = calculateCommission(sumAmount, cardType, sumOldAmount)
 
@@ -104,7 +104,7 @@ class MainKtTest {
 
         val sumAmount : Int = 7600000
         val sumOldAmount : Int = 0
-        val cardType : String = "Maestro"
+        val cardType : String = MAESTRO
 
         val result = calculateCommission(sumAmount, cardType, sumOldAmount)
 
@@ -120,7 +120,7 @@ class MainKtTest {
 
         val sumAmount : Int = 30000
         val sumOldAmount : Int = 35000
-        val cardType : String = "Maestro"
+        val cardType : String = MAESTRO
 
         val result = calculateCommission(sumAmount, cardType, sumOldAmount)
 
@@ -135,7 +135,7 @@ class MainKtTest {
 
         val sumAmount : Int = 550
         val sumOldAmount : Int = 7490000
-        val cardType : String = "Visa"
+        val cardType : String = VISA
 
         val result = calculateCommission(sumAmount, cardType, sumOldAmount)
 
@@ -150,7 +150,7 @@ class MainKtTest {
 
         val sumAmount : Int = 1000000
         val sumOldAmount : Int = 7490000
-        val cardType : String = "Visa"
+        val cardType : String = VISA
 
         val result = calculateCommission(sumAmount, cardType, sumOldAmount)
 
@@ -165,7 +165,7 @@ class MainKtTest {
 
         val sumAmount : Int = 550
         val sumOldAmount : Int = 7490000
-        val cardType : String = "Mir"
+        val cardType : String = MIR
 
         val result = calculateCommission(sumAmount, cardType, sumOldAmount)
 
@@ -180,7 +180,7 @@ class MainKtTest {
 
         val sumAmount : Int = 1000000
         val sumOldAmount : Int = 7490000
-        val cardType : String = "Mir"
+        val cardType : String = MIR
 
         val result = calculateCommission(sumAmount, cardType, sumOldAmount)
 
@@ -195,7 +195,7 @@ class MainKtTest {
 
         val sumAmount : Int = 550
         val sumOldAmount : Int = 7490000
-        val cardType : String = "VK Pay"
+        val cardType : String = VKPAY
 
         val result = calculateCommission(sumAmount, cardType, sumOldAmount)
 
@@ -222,7 +222,7 @@ class MainKtTest {
         val expectedValue = 3500
 
         val sumAmount : Int = 550
-        val cardType : String = "Mir"
+        val cardType : String = MIR
 
         val result = calculateCommission(sumAmount, cardType)
 
