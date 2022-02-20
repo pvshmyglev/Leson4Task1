@@ -233,7 +233,7 @@ class MainKtTest {
     @Test
     fun calculateCommissionDefaultOldAmount() {
 
-        val expectedValue = 0
+        val expectedValue = 1
 
         val sumAmount : Int = 550
         val sumOldAmount : Int = 7490000
